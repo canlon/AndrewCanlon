@@ -1,0 +1,40 @@
+body {
+  background: url(background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-shadow: 3px 2px #032730;
+  border: none;
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  text-transform: uppercase;
+}
+#url {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 68px;
+}
+#cs {
+  font-size: 35px;
+}
+#container {
+  padding-left: 30px;
+  padding-bottom: 20px;
+  line-height: 56px;
+}
+#social {
+  display: flex;
+  font-size: 50px;
+  text-align: center;
+  justify-content: center;
+}
+#social i {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#social a {
+  color: white;
+}
